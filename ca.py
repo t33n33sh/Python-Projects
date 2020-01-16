@@ -1,12 +1,3 @@
-#Write your function here
-def reversed_list(lst1,lst2):
-    lst2.reverse()
-    if lst1 == lst2:
-        return True
-    else:
-        return False
+destinations = ["Paris,France" ,"Shanghai,China" ,"Los Angeles,USA" ,"Sao Paulo,Brazil" ,"Cairo,Egypt"]
 
-
-#Uncomment the lines below when your function is done
-print(reversed_list([1, 2, 3], [3, 2, 1]))
-print(reversed_list([1, 5, 3], [3, 2, 1]))
+test_traveler = ['Erin Wilkes', 'Shanghai, China', ['historical site', 'art']]
